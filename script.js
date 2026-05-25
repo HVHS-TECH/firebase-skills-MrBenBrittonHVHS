@@ -71,7 +71,7 @@ function readListener(){
 }
 
 function displayMessage(snapshot){
-  HTML_OUTPUT.innerHTML = snapshot.val();
+  HTML_OUTPUT.innerText = snapshot.val();
 }
 
 function forEachRead(){
