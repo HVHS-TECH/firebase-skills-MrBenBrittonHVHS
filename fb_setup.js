@@ -7,15 +7,17 @@
 // Input:  n/a
 // Return: n/a
 /**************************************************************/
-  const firebaseConfig = {
-    apiKey: ,
-    authDomain: ,
-    databaseURL: ,
-    projectId: ,
-    storageBucket: ,
-    messagingSenderId:,
-    appId:
-  };
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDwXqakR1SpHww2sNM7lIsANCTBbKSRKLc",
+  authDomain: "fir-skills-a2ccf.firebaseapp.com",
+  databaseURL: "https://fir-skills-a2ccf-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "fir-skills-a2ccf",
+  storageBucket: "fir-skills-a2ccf.firebasestorage.app",
+  messagingSenderId: "537592705893",
+  appId: "1:537592705893:web:2c6e40863d05db9390278c"
+};
+
 
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
